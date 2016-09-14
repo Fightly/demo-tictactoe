@@ -1,0 +1,24 @@
+{
+  "name": "fightly-tictactoe",
+  "version": "0.0.1",
+  "description": "A multiplayer Tic Tac Toe built with the Fightly game engine",
+  "main": "server.js",
+  "dependencies": {
+    "express": "^4.14.0",
+    "fightly": "^0.0.1"
+  },
+  "devDependencies": {
+    "babel-core": "^6.11.4",
+    "babel-loader": "^6.2.0",
+    "babel-preset-es2015": "^6.9.0",
+    "webpack": "^1.13.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "build": "WEBPACK_ENV=build webpack",
+    "dev": "WEBPACK_ENV=dev webpack --progress --colors --watch"
+  },
+  "author": "Adrian Gaudebert",
+  "license": "MIT"
+}
