@@ -12,7 +12,7 @@
         </section>
 
         <section id="start">
-            <button>Play</button>
+            <button class="play">Play</button>
         </section>
 
         <section id="waiting">
@@ -40,6 +40,11 @@
                 <div id="cell-2-1"></div>
                 <div id="cell-2-2"></div>
             </div>
+        </section>
+
+        <section id="finished">
+            <p class="result" data-win="You Win!" data-draw="It's a Draw" data-loss="You Lose... "></p>
+            <button class="play">Play again?</button>
         </section>
 
         <script src="/socket.io/socket.io.js"></script>

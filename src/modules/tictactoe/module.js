@@ -3,16 +3,16 @@
 
 var actions = require('./actions');
 var Board = require('./components').Board;
-var GameProcessor = require('./processors').GameProcessor;
+var Game = require('./components').Game;
 
 
 const TICTACTOE = {
     actions,
     components: [
         Board,
+        Game,
     ],
     processors: [
-        GameProcessor,
     ],
 };
 
